@@ -28,11 +28,11 @@
 
 <p>
   <a href="https://www.linkedin.com/in/rahul-sahu-eee/"><img src="https://img.shields.io/badge/LinkedIn-rahul--sahu--eee-0A1929?style=flat-square&logo=linkedin&logoColor=4FC3F7&labelColor=0A1929" alt="LinkedIn" /></a>
-  <a href="mailto:<<EMAIL>>"><img src="https://img.shields.io/badge/Email-Contact-0A1929?style=flat-square&logo=gmail&logoColor=FFB74D&labelColor=0A1929" alt="Email" /></a>
+  <a href="mailto:<<sahurahulcoc@gmail.com>>"><img src="https://img.shields.io/badge/Email-Contact-0A1929?style=flat-square&logo=gmail&logoColor=FFB74D&labelColor=0A1929" alt="Email" /></a>
   <!-- delete this line if you don't have a portfolio yet -->
   <a href="<<PORTFOLIO_URL>>"><img src="https://img.shields.io/badge/Portfolio-Visit-0A1929?style=flat-square&logo=vercel&logoColor=4FC3F7&labelColor=0A1929" alt="Portfolio" /></a>
   <!-- delete this line if you don't use Twitter/X -->
-  <a href="https://twitter.com/<<TWITTER_HANDLE>>"><img src="https://img.shields.io/badge/Twitter-Follow-0A1929?style=flat-square&logo=twitter&logoColor=FFB74D&labelColor=0A1929" alt="Twitter/X" /></a>
+ 
 </p>
 
 <img width="100%" src="assets/divider.svg" alt="" />
