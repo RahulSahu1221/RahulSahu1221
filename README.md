@@ -7,10 +7,10 @@
   anyone else's profile.
 
   Deliberately excludes programming-language badges (C, C++, Python, JS,
-  HTML, CSS, Git). Rahul is an EEE student who directs AI tools to write
-  code rather than writing it by hand, so those badges would misrepresent
-  his skillset in an interview setting. Only tools he personally operates
-  are listed.
+  HTML, CSS, Git) and any mention of coding/programming — Rahul's field is
+  Electrical & Electronics Engineering, not Computer Science, and the
+  profile should read that way. Only hardware/EEE tools he personally
+  operates are listed.
 
   BEFORE PUBLISHING — replace every <<PLACEHOLDER>>:
     <<EMAIL>>          → your real email
@@ -23,7 +23,7 @@
 <img width="100%" src="assets/banner.svg" alt="Banner: Rahul Sahu, Electrical and Electronics Engineer, circuit trace and torii gate motif" />
 
 <a href="#">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3200&pause=900&color=FFB74D&center=true&vCenter=true&width=680&height=45&lines=Electrical+%26+Electronics+Engineering+%E2%80%94+Final+Year;I+design+the+system%2C+AI+writes+the+code;Studying+Japanese+%E2%80%94+JLPT+N5;Open+to+roles+with+Japanese+engineering+firms" alt="Typing headline: Electrical and Electronics Engineering final year, I design the system and AI writes the code, studying Japanese JLPT N5, open to roles with Japanese engineering firms" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3200&pause=900&color=FFB74D&center=true&vCenter=true&width=680&height=45&lines=Electrical+%26+Electronics+Engineering+%E2%80%94+Final+Year;Circuits+%C2%B7+Embedded+Systems+%C2%B7+IoT;Studying+Japanese+%E2%80%94+JLPT+N5;Open+to+roles+with+Japanese+engineering+firms" alt="Typing headline: Electrical and Electronics Engineering final year, circuits, embedded systems, IoT, studying Japanese JLPT N5, open to roles with Japanese engineering firms" />
 </a>
 
 <p>
@@ -31,8 +31,7 @@
   <a href="mailto:<<sahurahulcoc@gmail.com>>"><img src="https://img.shields.io/badge/Email-Contact-0A1929?style=flat-square&logo=gmail&logoColor=FFB74D&labelColor=0A1929" alt="Email" /></a>
   <!-- delete this line if you don't have a portfolio yet -->
   <a href="<<PORTFOLIO_URL>>"><img src="https://img.shields.io/badge/Portfolio-Visit-0A1929?style=flat-square&logo=vercel&logoColor=4FC3F7&labelColor=0A1929" alt="Portfolio" /></a>
-  <!-- delete this line if you don't use Twitter/X -->
- 
+
 </p>
 
 <img width="100%" src="assets/divider.svg" alt="" />
@@ -54,12 +53,11 @@
 +-----------------------------------------------------------+
 ```
 
-I build hardware-first projects — circuit design, embedded control, sensor
-systems — and pair them with a software/monitoring layer. I don't come from
-a CS background: I design the system, define exactly what each part needs
-to do, and use AI tools to write the implementing code, which I then test
-in simulation and on real hardware. I'm upfront about that split in
-interviews — it's a workflow, not a shortcut.
+I work on hardware-first projects — circuit design, embedded control, and
+sensor systems — taking an idea from a schematic through simulation to a
+working prototype. My grounding is in electrical fundamentals and power
+systems, and I'm building on that with embedded platforms and IoT
+connectivity as I move toward roles with Japanese engineering firms.
 
 <img width="100%" src="assets/divider.svg" alt="" />
 
@@ -82,11 +80,10 @@ interviews — it's a workflow, not a shortcut.
 <img src="https://img.shields.io/badge/MQTT-0A1929?style=for-the-badge&logo=mqtt&logoColor=4FC3F7&labelColor=0A1929" alt="MQTT" />
 <img src="https://img.shields.io/badge/ThingsBoard-0A1929?style=for-the-badge&logoColor=FFB74D&labelColor=0A1929" alt="ThingsBoard" />
 
-**Workflow**
+**Documentation & Version Control**
 
-<img src="https://img.shields.io/badge/VS%20Code-0A1929?style=for-the-badge&logo=visualstudiocode&logoColor=4FC3F7&labelColor=0A1929" alt="VS Code — for reviewing and testing AI-generated code" />
+<img src="https://img.shields.io/badge/VS%20Code-0A1929?style=for-the-badge&logo=visualstudiocode&logoColor=4FC3F7&labelColor=0A1929" alt="VS Code" />
 <img src="https://img.shields.io/badge/GitHub-0A1929?style=for-the-badge&logo=github&logoColor=FFB74D&labelColor=0A1929" alt="GitHub" />
-<img src="https://img.shields.io/badge/AI--Assisted%20Dev-0A1929?style=for-the-badge&logoColor=4FC3F7&labelColor=0A1929" alt="AI-assisted development" />
 
 <img width="100%" src="assets/divider.svg" alt="" />
 
