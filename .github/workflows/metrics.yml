@@ -1,0 +1,58 @@
+# .github/workflows/metrics.yml
+#
+# What this does:
+#   Generates ONE self-hosted SVG (metrics.svg) containing your GitHub stats,
+#   a contribution calendar, and your real GitHub Achievement badges (Pull
+#   Shark, YOLO, etc. — official badges GitHub itself awards you). It runs
+#   entirely inside GitHub Actions and commits the SVG straight into this
+#   repo, so the README never depends on a third party's live server.
+#
+# WHY THIS EXISTS:
+#   The old "Activity" and "Trophies" images used github-readme-stats.vercel.app
+#   and github-profile-trophy.vercel.app — free community-run services. Both
+#   have been getting paused/rate-limited on their shared hosting, which is
+#   exactly why your images broke. This workflow removes that dependency.
+#
+# ONE-TIME SETUP REQUIRED — this workflow needs a Personal Access Token
+# (a GITHUB_TOKEN alone isn't enough to read your full profile stats):
+#   1. Go to github.com/settings/tokens?type=beta ("Fine-grained tokens")
+#      OR github.com/settings/tokens (classic) — classic is simpler here.
+#   2. Click "Generate new token (classic)".
+#   3. Name it something like "metrics-readme". Set expiration (e.g. 1 year).
+#   4. Check the boxes: "repo" and "read:user".
+#   5. Generate it, and COPY THE TOKEN NOW (you won't see it again).
+#   6. In THIS repo: Settings → Secrets and variables → Actions → New
+#      repository secret. Name: METRICS_TOKEN. Value: paste the token.
+#   7. Commit this file. Run it once manually from the Actions tab
+#      (workflow_dispatch) to generate metrics.svg immediately.
+
+name: Generate Profile Metrics
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  push:
+    branches:
+      - main
+  workflow_dispatch: {}
+
+jobs:
+  build-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Generate metrics.svg
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: RahulSahu1221
+          template: classic
+          base: header, activity, community
+          plugin_achievements: yes
+          plugin_achievements_threshold: C
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          config_timezone: Asia/Kolkata
+          config_display: large
