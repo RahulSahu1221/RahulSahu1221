@@ -23,7 +23,7 @@
 <img width="100%" src="assets/banner.svg" alt="Banner: Rahul Sahu, Electrical and Electronics Engineer, circuit trace and torii gate motif" />
 
 <a href="#">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3200&pause=900&color=FFB74D&center=true&vCenter=true&width=680&height=45&lines=Electrical+%26+Electronics+Engineering+%E2%80%94+Final+Year;Circuits+%C2%B7+Embedded+Systems+%C2%B7+IoT;Studying+Japanese+%E2%80%94+JLPT+N5;Open+to+roles+with+Japanese+engineering+firms" alt="Typing headline: Electrical and Electronics Engineering final year, circuits, embedded systems, IoT, studying Japanese JLPT N5, open to roles with Japanese engineering firms" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3200&pause=900&color=FFB74D&center=true&vCenter=true&width=680&height=45&lines=Electrical+%26+Electronics+Engineering+%E2%80%94+Final+Year;Circuits+%C2%B7+Embedded+Systems+%C2%B7+IoT;Studying+Japanese+%E2%80%94+JLPT+N5;Open+to+roles+with+Japanese+engineering+firms" alt="Typing headline: Electrical and Electronics Engineering final year, circuits, embedded systems, IoT, studying Japanese JLPT N4, open to roles with Japanese engineering firms" />
 </a>
 
 <p>
