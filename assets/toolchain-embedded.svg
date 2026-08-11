@@ -1,0 +1,8 @@
+<svg width="401" height="48" viewBox="0 0 401 48" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="">
+<rect x="0" y="0" width="113" height="48" rx="24.0" fill="#00979D"/>
+<text x="56.5" y="29.44" font-family="Verdana, Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">ARDUINO</text>
+<rect x="129" y="0" width="93" height="48" rx="24.0" fill="#03234B"/>
+<text x="175.5" y="29.44" font-family="Verdana, Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">STM32</text>
+<rect x="238" y="0" width="163" height="48" rx="24.0" fill="#10315C"/>
+<text x="319.5" y="29.44" font-family="Verdana, Arial, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" text-anchor="middle">STM32CUBEIDE</text>
+</svg>
