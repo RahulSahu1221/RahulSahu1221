@@ -31,28 +31,34 @@ name: Generate Profile Metrics
 on:
   schedule:
     - cron: "0 3 * * *"
-  push:
-    branches:
-      - main
-  workflow_dispatch: {}
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
-  build-metrics:
+  metrics:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+
     steps:
-      - name: Generate metrics.svg
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate metrics
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
           user: RahulSahu1221
+          filename: metrics.svg
           template: classic
           base: header, activity, community
-          plugin_achievements: yes
-          plugin_achievements_threshold: C
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+          plugin_achievements: yes
+          plugin_achievements_threshold: C
           config_timezone: Asia/Kolkata
-          config_display: large
+
+      - name: Commit metrics
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update metrics.svg
