@@ -1,0 +1,38 @@
+name: Update snapshot card
+
+# Runs automatically every day at 04:00 UTC, and also whenever you push to
+# main (handy for testing). You can also trigger it by hand from the
+# "Actions" tab in GitHub using "Run workflow".
+on:
+  schedule:
+    - cron: "0 4 * * *"
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  update-uptime:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Recompute uptime and update the SVGs
+        run: python scripts/update_snapshot.py
+
+      - name: Commit changes (if any)
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/dark_mode.svg assets/light_mode.svg
+          git diff --cached --quiet || git commit -m "Update uptime"
+          git push
