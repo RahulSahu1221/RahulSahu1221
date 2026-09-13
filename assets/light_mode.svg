@@ -65,7 +65,7 @@ text, tspan {white-space:pre;}
 <text x="360" y="30" font-size="15px" fill="#12314a">
 <tspan x="360" y="30" class="head">rahul@eee</tspan><tspan class="dots"> -——————————————————————————————————————-</tspan>
 <tspan x="360" y="50" class="key">. Role:</tspan><tspan class="dots"> .......... </tspan><tspan class="value">Final-Year B.Tech EEE Undergraduate</tspan>
-<tspan x="360" y="70" class="key">. Uptime:</tspan><tspan id="uptime_dots" class="dots"> ........ </tspan><tspan id="uptime_value" class="value">22 years, 8 months, 22 days</tspan>
+<tspan x="360" y="70" class="key">. Uptime:</tspan><tspan id="uptime_dots" class="dots"> ........ </tspan><tspan id="uptime_value" class="value">22 years, 8 months, 23 days</tspan>
 <tspan x="360" y="90" class="key">. Institution:</tspan><tspan class="dots"> ... </tspan><tspan class="value">Aditya College of Engg. &amp; Tech.</tspan>
 <tspan x="360" y="110" class="key">. Location:</tspan><tspan class="dots"> ...... </tspan><tspan class="value">Surampalem, Andhra Pradesh, IN</tspan>
 <tspan x="360" y="130" class="key">. Focus:</tspan><tspan class="dots"> ......... </tspan><tspan class="value">IoT / Embedded Systems / Power Systems</tspan>
